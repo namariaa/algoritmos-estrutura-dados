@@ -29,18 +29,18 @@ vector<int> insertionSortDecrescente(vector<int> numberlist) {
     return numberlist;
 }
 
-int main() {
-    vector<int> numberlist;
-    int v;
-    for(int i = 0; i < 5; i++) {
-        cin >> v;
-        numberlist.push_back(v);
-    }
-    vector<int> sortList = insertionSort(numberlist);
+// int main() {
+//     vector<int> numberlist;
+//     int v;
+//     for(int i = 0; i < 5; i++) {
+//         cin >> v;
+//         numberlist.push_back(v);
+//     }
+//     vector<int> sortList = insertionSort(numberlist);
     
-    for (int i = 0; i < sortList.size(); i++) {
-        cout << sortList[i] << endl;
-    }
+//     for (int i = 0; i < sortList.size(); i++) {
+//         cout << sortList[i] << endl;
+//     }
 
-    return 0;
-}
+//     return 0;
+// }

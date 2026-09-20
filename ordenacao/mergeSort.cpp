@@ -40,17 +40,17 @@ void mergeSort(vector<int> &list, int begin, int end) {
     }
 }
 
-int main () {
-    vector<int> numberlist;
-    int v;
-    for(int i = 0; i < 5; i++) {
-        cin >> v;
-        numberlist.push_back(v);
-    }
-    mergeSort(numberlist, 0, numberlist.size() - 1);
+// int main () {
+//     vector<int> numberlist;
+//     int v;
+//     for(int i = 0; i < 5; i++) {
+//         cin >> v;
+//         numberlist.push_back(v);
+//     }
+//     mergeSort(numberlist, 0, numberlist.size() - 1);
     
-    for (int i = 0; i < numberlist.size(); i++) {
-        cout << numberlist[i] << endl;
-    }
-    return 0;
-}
+//     for (int i = 0; i < numberlist.size(); i++) {
+//         cout << numberlist[i] << endl;
+//     }
+//     return 0;
+// }
