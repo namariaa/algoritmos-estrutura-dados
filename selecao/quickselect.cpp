@@ -30,6 +30,7 @@ int particiona(vector<int> &list, int begin, int end) {
         while (list[j] >= pivo) j-=1;
         if (i < j) troca(list,i, j); 
     }
+
     list[begin] = list[j];
     list[j] = pivo;
     return j;
@@ -53,7 +54,7 @@ int quickSelect(vector<int> &list, int begin, int end, int element) {
 int main () {
     vector<int> numberlist;
     int v;
-    for(int i = 0; i < 11; i++) {
+    for(int i = 0; i < 5; i++) {
         cin >> v;
         numberlist.push_back(v);
     }
